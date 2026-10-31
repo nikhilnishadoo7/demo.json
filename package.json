@@ -1,0 +1,12 @@
+{
+  "name": "vkyc-loadtest-mock",
+  "version": "1.0.0",
+  "description": "Mock of GET /api/v1/customers/metadata for load testing: one user from JSON, no database",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
